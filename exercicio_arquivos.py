@@ -1,3 +1,5 @@
+import pandas as pd
+
 def aluno_aprovado(nome, media, legenda):
     with open("/Users/leonardo/Documents/eng_computacao/programacao2/atividade_3/aprovados.txt", "a") as aprovados:
         aprovados.write(f"Nome do aluno: {nome}\nMedia: {media:.2f}\nLegenda: {legenda}\n\n")
